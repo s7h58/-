@@ -1,0 +1,1091 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>경기냉난시스템</title>
+    <link rel="stylesheet" href="cs/style.css">
+</head>
+
+<body>
+    <!-- 헤더 -->
+    <header class="topbar">
+        <div class="top-inner-frame">
+            <div class="top-inner-menu">
+                <ul class="top-menu">
+                    <li class="xans-element- xans-layout xans-layout-bookmark "><img src="image/13475554.png" alt=""
+                            onclick="winPop(this.href); return false;"><i class="xi-star-o"></i>
+                        <hr class="top-hr">즐겨찾기</a>
+                    </li>
+                    <a class="top-li"> | </a>
+                    <li class="xans-element- xans-layout xans-layout-shortcut "><img
+                            src="image/free-icon-bookmark-16860430.png" alt=""
+                            onclick="winPop(this.href); return false;"><i class="xi-bookmark-o"></i>
+                        <hr class="top-hr">바로가기</a>
+                    </li>
+                </ul>
+                <ul class="top-menu-left">
+                    <li class="xans-element- xans-layout xans-layout-bookmark "><a class="login" href=""
+                            onclick="winPop(this.href); return false;"><i class="xi-star-o"></i>로그인
+                        </a>
+                    </li>
+                    <a class="top-lii"> | </a>
+                    <li class="xans-element- xans-layout xans-layout-bookmark "><a class="sign-up" href=""
+                            onclick="winPop(this.href); return false;"><i class="xi-star-o"></i>회원가입
+                        </a>
+                    </li>
+                    <a class="top-lii"> | </a>
+                    <li class="xans-element- xans-layout xans-layout-shortcut "><a alt=""
+                            onclick="winPop(this.href); return false;"><i class="xi-bookmark-o"></i>장바구니
+                            <span class="xans-element- xans-layout xans-layout-orderbasketcount count ">0</span>
+                        </a>
+                    </li>
+                    <a class="top-lii"> | </a>
+                    <li class="xans-element- xans-layout xans-layout-shortcut ">
+                        <a alt="" onclick="winPop(this.href); return false;"><i class="xi-bookmark-o"></i>마이샵
+                        </a>
+                    </li>
+                    <li class="xans-element- xans-layout xans-layout-shortcut "><a alt=""
+                            onclick="winPop(this.href); return false;"><i class="xi-bookmark-o"></i>커뮤니티
+                        </a>
+                    </li>
+                    <a class="top-lii"> | </a>
+                    <li class="xans-element- xans-layout xans-layout-shortcut "><a alt=""
+                            onclick="winPop(this.href); return false;"><i class="xi-bookmark-o"></i>상품Q&A
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--       <button onclick="addToCart()">상품 담기</button>-->
+        <div class="inner">
+            <div class="top-inner">
+                <div class="logo">
+                    <a href="#">
+                        <img src="image/logo_off.png" alt="" class="logo-off">
+                        <img src="image/logo_on.png" alt="" class="logo-on">
+                    </a>
+                </div>
+
+                <div class="search">
+                    <form id="searchForm" action="search.html" method="get">
+                        <input type="search" id="searchInput" name="q" placeholder="검색어를 입력하세요" />
+                        <button type="submit">
+                            <img src="image/free-icon-search-149852.png" alt="검색">
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- 네비게이션 -->
+    <nav class="mainnav" aria-label="main navigation">
+        <div class="container">
+            <div class="menu-btn">
+                <li>
+                    <img src="image/free-icon-hamburger-5135168.png" alt="">
+                    <a href="#">
+                        카테고리 전체보기
+                    </a>
+                </li>
+            </div>
+            <div class="menu-btn-hide">
+                <li>
+                    <img src="image/free-icon-cross-mark-8369334.png" alt="">
+                    <a href="#" style="color:black">
+                        카테고리 전체보기 </a>
+                    <ul class="sub-menu">
+                        <li class="sub-menu-big">
+                            <a href="#">대형건물용 시스템에어컨
+                                <ul class="sub-menu-size">
+                                    <li><a href="#">실내기</a></li>
+                                    <li><a href="#">실외기</a></li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li><a href="#">중소건물용 시스템에어컨</a></li>
+                        <li><a href="#">주거용 시스템에어컨</a></li>
+                        <li><a href="#">바닥난방/급탕</a></li>
+                        <li><a href="#">환기 솔루션</a></li>
+                        <li><a href="#">중앙공조</a></li>
+                    </ul>
+                </li>
+            </div>
+            <a href="#" class="greetings-btn">인사말</a>
+            <a href="#" class="information-btn">제품안내</a>
+            <a href="#" class="cases">설치사례</a>
+            <a href="#">온라인문의</a>
+            <a href="#">찾아오시는길</a>
+        </div>
+    </nav>
+    <!-- 메인 레이아웃 -->
+    <div class="wrap">
+        <!-- 사이드바 -->
+        <div class="left">
+            <aside class="sidebar">
+                <div class="cat-box">
+                    <div class="cat-title">인기상품</div>
+                    <ul class="cat-list">
+                        <li><a href="#">대형건물용 실외기 GHP</a></li>
+                        <li><a href="#">천장형 실내기_무풍 4Way</a></li>
+                        <li><a href="#">천장형 실내기_1 Way</a></li>
+                        <li><a href="#"> 싱글_360</a></li>
+                        <li><a href="#">중대형 에어컨 냉난방 스탠다드 APN-SG583H</a></li>
+                        <li><a href="#"> 중앙공조</a></li>
+                    </ul>
+                </div>
+
+                <div class="left-quick">
+                    <div class="q-btn">INTRO<small>인사말</small></div>
+                    <div class="q-btn">PRODUCT<small>제품안내</small></div>
+                    <div class="q-btn">Q & A<small>온라인문의</small></div>
+                    <div class="q-btn">MAP<small>오시는길</small></div>
+                </div>
+            </aside>
+        </div>
+        <div class="right">
+            <div class="slider">
+                <div class="slide-frame">
+                    <div class="slide">
+                        <img src="image/main01.jpg" alt="">
+                        <img src="image/main02.jpg" alt="">
+                        <img src="image/main03.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="banner">
+                <div class="banner-item">
+                    <img src="image/baner01.jpg" alt="">
+                </div>
+                <div class="banner-item">
+                    <img src="image/baner02.jpg" alt="">
+                </div>
+                <div class="banner-item">
+                    <img src="image/baner03.jpg" alt="">
+                </div>
+            </div>
+            <!-- 배너 하단 간단 안내 박스 -->
+            <div class="banner-sub">
+                <h3>빠른 상담이 필요하신가요?</h3>
+                <p>전문 상담원이 신속하게 도와드립니다.</p>
+                <a href="tel:01030352244">
+                    📞 바로 전화하기
+                </a>
+            </div>
+        </div>
+
+        <div class="sign-in">
+            <div class="sign-up-main" id="sign-up-main">
+                <h2>회원가입</h2>
+                <input type="text" id="reg-username" placeholder="아이디" />
+                <input type="password" id="reg-password" placeholder="비밀번호" />
+                <button id="register-btn">가입하기</button>
+            </div>
+        </div>
+        <div class="logo-main">
+            <div class="login-container">
+                <h2>로그인</h2>
+                <input type="text" placeholder="아이디" />
+                <input type="password" placeholder="비밀번호" />
+                <button>로그인</button>
+                <p>계정이 없으신가요? <a href="#" class="sign-up-form">회원가입</a></p>
+            </div>
+        </div>
+
+        <div class="greetings">
+            | 인사말
+            <hr>
+            <img src="image/page1.jpg" alt="">
+        </div>
+
+        <div class="information">
+            | 제품안내
+            <hr>
+            <ul class="infor-box">
+                <li class="big"><a href="#">대형건물용 시스템에어컨</a></li>
+                <li><a href="#">중소건물용 시스템에어컨</a></li>
+                <li><a href="#">주거용 시스템에어컨</a></li>
+                <li><a href="#">바닥난방/급탕</a></li>
+                <li><a href="#">환기 솔루션</a></li>
+                <li><a href="#">중앙공조</a></li>
+            </ul>
+            <div class="shop-infor">
+                <!-- 여러 작은 카드들 -->
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/840334941cb806e73028dedb687cbf8c.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">DVN 칠러</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/8f691bb4899b07d8fcf83d235ef473ef.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">주거용 ECO</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/c3388e10cb94b7f4426279749b45bf74.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">주거용</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/1e32a44a3a0a116fceb2343824ec9173.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">상업용</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/59541d89b423d0454d8b44b924355dbb.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">주거용 V-TOP</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/30da5987a887e01e863c1da19dc96292.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">히트펌프 보일러 (심야전기용) 실내기</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/2a16c77d9081084153b7afe1b18d83db.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">히트펌프 보일러 (심야전기용) 실외기</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/a848e46db2ae927aa2e90b576b7ee316.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">주거용 실내기_ 무풍 시스템에어컨 1 Way (*무풍 판넬 적용 시)</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/ab13f4045d8ac21472120c29eb5854e1.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">주거용 실내기_무풍 시스템에어컨 1 Way 청정 (※무풍 판넬 적용 시)</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/92c51ae0d6d48620d1bdf649e22b2850.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">삼성 무풍 시스템에어컨 벽걸이 AM023TNVDBH1</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/602bfd61f1ccafe39347ba4645a2e841.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">삼성 무풍 시스템에어컨 벽걸이 AM052TNVDBH1</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/f114339bf64190061be1060a5d4b8e54.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">아파트주택용 DVM Home (무풍) 단배관</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/559c2b30f46c41e39f90d7b2997de419.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">아파트주택용 DVM Home (무풍) 단배관</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/a5f6d3fb20c2160ee68bdbced7d7de2d.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">주거용 실내기 1 Way</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/5634b7c9e571177e11867f722697354b.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">주거용 실내기 1 Way</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/4708985aeb5b284a737c1bf8f3249f42.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">아파트주택용 DVM Home (일반) 단배관</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/1db91552698241fcb959ba091265a966.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">리뉴얼전용 DVM S Eco Renewal</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/2fd835b8e7a0399cab4c7d17f026c0f6.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">주거용 실내기 1 Way</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/a91f8add948120f6b6b3ffea86a31ccd.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">주거용 실내기_1 Way 인테리어형</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <div class="DVN-page">
+            <div class="container">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="image/840334941cb806e73028dedb687cbf8c.jpeg" alt="">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-title">삼성 DVM 칠러</div>
+                        <div class="product-price">₩7,000,000 (VAT 별도)</div>
+                        <div class="product-specs">
+                            <p><strong>모델명:</strong> DVM S</p>
+                            <p><strong>전압:</strong> 220V / 60Hz</p>
+                            <p><strong>설치지역:</strong> 서울/경기 가능</p>
+                            <p><strong>판매자:</strong> 삼성전자 공식 대리점</p>
+                        </div>
+                        <button class="buy-button" onclick="addToCart()">장바구니에 담기</button>
+                    </div>
+                </div>
+                <ul class="os">
+                    <li class="page-1"><a href="#">상품상세정보</a></li>
+                    <li class="page-2"><a href="#">상품구매안내</a></li>
+                    <li class="page-3"><a href="#">관련상품</a></li>
+                    <li class="page-4"><a href="#">상품후기</a>
+                        <span id="review-count">0</span>
+                    </li>
+                    <li class="page-5"><a href="#">상품문의</a>
+                        <span class="oss ">0</span>
+                    </li>
+                </ul>
+                <div class="section1">
+                    <img src="image/2_shop1_095605.jpg" alt="">
+                </div>
+                <div class="section2">
+                    <b>상품결제정보</b>
+                    <p>
+                        고액결제의 경우 안전을 위해 카드사에서 확인전화를 드릴 수도 있습니다. 확인과정에서 도난 카드의 사용이나 타인 명의의 주문등 정상적인 주문이 아니라고 판단될 경우 임의로
+                        주문을 보류 또는 취소할 수 있습니다.
+
+                        무통장 입금은 상품 구매 대금은 PC뱅킹, 인터넷뱅킹, 텔레뱅킹 혹은 가까운 은행에서 직접 입금하시면 됩니다.
+                        주문시 입력한 입금자명과 실제입금자의 성명이 반드시 일치하여야 하며, 7일 이내로 입금을 하셔야 하며 입금되지 않은 주문은 자동취소 됩니다.
+                    </p>
+                    <br>
+                    <b>배송정보</b>
+                    <p>
+                        배송 방법 : 택배 <br>
+                        배송 지역 : 전국지역 <br>
+                        배송 비용 : 2,500원<br>
+                        배송 기간 : 3일 ~ 7일<br>
+                        배송 안내 : - 산간벽지나 도서지방은 별도의 추가금액을 지불하셔야 하는 경우가 있습니다.<br>
+                        고객님께서 주문하신 상품은 입금 확인후 배송해 드립니다. 다만, 상품종류에 따라서 상품의 배송이 다소 지연될 수 있습니다.
+                    </p>
+                    <b>교환 및 반품정보</b>
+                    <p>
+                        교환 및 반품 주소
+                        - [16409] 경기도 수원시 권선구 구운로 6 (구운동) <br><br>
+
+                        교환 및 반품이 가능한 경우
+                        - 계약내용에 관한 서면을 받은 날부터 7일. 단, 그 서면을 받은 때보다 재화등의 공급이 늦게 이루어진 경우에는 재화등을 공급받거나 재화등의 공급이 시작된 날부터 7일
+                        이내
+                        - 공급받으신 상품 및 용역의 내용이 표시.광고 내용과 다르거나 계약내용과 다르게 이행된 때에는 당해 재화 등을 공급받은 날 부터 3월이내, 그사실을 알게 된 날 또는 알
+                        수 있었던 날부터 30일이내<br><br>
+
+                        교환 및 반품이 불가능한 경우
+                        - 이용자에게 책임 있는 사유로 재화 등이 멸실 또는 훼손된 경우(다만, 재화 등의 내용을 확인하기 위하여 포장 등을 훼손한 경우에는 청약철회를 할 수 있습니다)<br>
+                        - 이용자의 사용 또는 일부 소비에 의하여 재화 등의 가치가 현저히 감소한 경우<br>
+                        - 시간의 경과에 의하여 재판매가 곤란할 정도로 재화등의 가치가 현저히 감소한 경우<br>
+                        - 복제가 가능한 재화등의 포장을 훼손한 경우<br>
+                        - 개별 주문 생산되는 재화 등 청약철회시 판매자에게 회복할 수 없는 피해가 예상되어 소비자의 사전 동의를 얻은 경우<br>
+                        - 디지털 콘텐츠의 제공이 개시된 경우, (다만, 가분적 용역 또는 가분적 디지털콘텐츠로 구성된 계약의 경우 제공이 개시되지 아니한 부분은 청약철회를 할 수
+                        있습니다.)<br>
+                        <br>
+                        ※ 고객님의 마음이 바뀌어 교환, 반품을 하실 경우 상품반송 비용은 고객님께서 부담하셔야 합니다.
+                        (색상 교환, 사이즈 교환 등 포함)
+                    </p>
+                </div>
+                <div class="section3">
+
+                </div>
+                <div class="section4">
+                    <a href="#" id="write-review">게시물 없음</a>
+                    <hr>
+                    <!-- <button id="write-review">리뷰 쓰기</button>
+                    <hr>
+                    <div id="review-form" class="hidden">
+                        <h3>리뷰 작성</h3>
+
+                        제품 선택 
+                        <label for="product">제품 선택:</label>
+                        <select id="product">
+                            <option value="product1">제품 1</option>
+                            <option value="product2">제품 2</option>
+                            <option value="product3">제품 3</option>
+                        </select>
+
+                        <br><br>
+
+
+                        <label>별점:</label>
+                        <div class="star-rating">
+                            <input type="radio" id="star5" name="rating" value="5"><label for="star5">★</label>
+                            <input type="radio" id="star4" name="rating" value="4"><label for="star4">★</label>
+                            <input type="radio" id="star3" name="rating" value="3"><label for="star3">★</label>
+                            <input type="radio" id="star2" name="rating" value="2"><label for="star2">★</label>
+                            <input type="radio" id="star1" name="rating" value="1"><label for="star1">★</label>
+                        </div>
+
+                        <br><br>
+
+                        <label for="photo">사진 업로드:</label>
+                        <input type="file" id="photo" accept="image/*">
+
+                        <br><br>
+
+                        <button id="submit-review">제출</button>
+                    </div> -->
+                </div>
+                <div class="section5">
+                    <a href="#" id="write-review">게시물 없음</a>
+                </div>
+            </div>
+        </div>
+        <div class="big-main">
+            | 대형건물용 시스템에어컨
+            <ul class="big-sub">
+                <li><a href="#">실내기 (12)</a></li>
+                <li><a href="#">실외기 (10)</a></li>
+            </ul>
+            <div class="shop-infor">
+                <!-- 여러 작은 카드들 -->
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/2f86e2e9a517c29c68b8eaeb4a4dff1c.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">대형건물용 실외기 GHP</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/3a31e6f660f8b47ed69aeb3fed119141.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">대형건물용 실외기 DVM S 고효율 한랭지형</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/a8b4f1031dd7d796dff4583529eec54a.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">대형건물용 실외기 DVM S 프리미엄형</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/ece4b99971412eb9ffc5d51ed6277070.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">대형건물용 실외기 DVM S 한랭지형</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/36502839bc518b189ddce2e2c03a2485.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">대형건물용 실외기 DVM S 공장전원형</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/5e71a2cb79641d52bfb71abd9836c5ea.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">대형건물용 실외기 DVM S 냉방 전용</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/322138f6ab58cdb50fbd64f4ce93a3fb.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">대형건물용 실외기 DVM S 표준형</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/f965c3ba8902cfa2a1d079d93e82b1ae.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">대형건물용 실외기 DVM S 동시냉냔방형</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/ce761c271716cf2a67d96ff01574f779.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">자열수열원 실외기 DVM S GEOWATER</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/9ce6c94c21ead02f84b01df0fae03d71.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">대형건물용 실외기 DVN S 고온형</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/c1fa2038b7f76a91442282c191181c26.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">천장형 실내기_무풍 시스템에어컨 1 Way</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/f1c0a638eff5ea4ec660597984518b42.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">천장형 실내기_무풍 4Way-미니</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/559c2b30f46c41e39f90d7b2997de419.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">아파트주택용 DVM Home (무풍) 단배관</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/a5f6d3fb20c2160ee68bdbced7d7de2d.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">주거용 실내기 1 Way</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/5634b7c9e571177e11867f722697354b.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">주거용 실내기 1 Way</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/4708985aeb5b284a737c1bf8f3249f42.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">아파트주택용 DVM Home (일반) 단배관</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/1db91552698241fcb959ba091265a966.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">리뉴얼전용 DVM S Eco Renewal</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/2fd835b8e7a0399cab4c7d17f026c0f6.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">주거용 실내기 1 Way</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="thumb">
+                        <img src="image/a91f8add948120f6b6b3ffea86a31ccd.jpeg" alt="">
+                    </div>
+                    <div class="page">
+                        <div class="card-body">
+                            <div class="card-title">주거용 실내기_1 Way 인테리어형</div>
+                            <hr>
+                            <div class="meta">
+                                <h3 id="review-text">리뷰 0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- 본문 -->
+    <main class="content">
+        <div class="breadcrumb">홈 &gt; 게시판 &gt; 설치사례</div>
+        <div class="board-title">
+            <h2>설치사례</h2>
+            <div style="color:#999; font-size:13px">설치사례 게시판입니다.</div>
+        </div>
+
+        <!-- 갤러리: 상단 큰 행 -->
+        <div class="gallery">
+            <!-- 큰 이미지 -->
+            <article class="card large">
+                <div class="thumb">큰 설치 사진 (샘플)</div>
+                <div class="card-body">
+                    <div class="card-title">포시즌시스템공조</div>
+                    <div class="meta">Posted by : 포시즌시스템공조<br />Date : 2025-04-08 16:45:55</div>
+                </div>
+            </article>
+
+            <!-- 여러 작은 카드들 -->
+            <article class="card">
+                <div class="thumb">썸네일 1</div>
+                <div class="card-body">
+                    <div class="card-title">포시즌시스템공조</div>
+                    <div class="meta">Posted by : 포시즌시스템공조<br />Date : 2025-04-08 16:45:21</div>
+                </div>
+            </article>
+            <article class="card">
+                <div class="thumb">썸네일 1</div>
+                <div class="card-body">
+                    <div class="card-title">포시즌시스템공조</div>
+                    <div class="meta">Posted by : 포시즌시스템공조<br />Date : 2025-04-08 16:45:21</div>
+                </div>
+            </article>
+            <article class="card">
+                <div class="thumb">썸네일 1</div>
+                <div class="card-body">
+                    <div class="card-title">포시즌시스템공조</div>
+                    <div class="meta">Posted by : 포시즌시스템공조<br />Date : 2025-04-08 16:45:21</div>
+                </div>
+            </article>
+            <article class="card">
+                <div class="thumb">썸네일 1</div>
+                <div class="card-body">
+                    <div class="card-title">포시즌시스템공조</div>
+                    <div class="meta">Posted by : 포시즌시스템공조<br />Date : 2025-04-08 16:45:21</div>
+                </div>
+            </article>
+            <article class="card">
+                <div class="thumb">썸네일 1</div>
+                <div class="card-body">
+                    <div class="card-title">포시즌시스템공조</div>
+                    <div class="meta">Posted by : 포시즌시스템공조<br />Date : 2025-04-08 16:45:21</div>
+                </div>
+            </article>
+            <article class="card">
+                <div class="thumb">썸네일 1</div>
+                <div class="card-body">
+                    <div class="card-title">포시즌시스템공조</div>
+                    <div class="meta">Posted by : 포시즌시스템공조<br />Date : 2025-04-08 16:45:21</div>
+                </div>
+            </article>
+            <article class="card">
+                <div class="thumb">썸네일 1</div>
+                <div class="card-body">
+                    <div class="card-title">포시즌시스템공조</div>
+                    <div class="meta">Posted by : 포시즌시스템공조<br />Date : 2025-04-08 16:45:21</div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="thumb">썸네일 2</div>
+                <div class="card-body">
+                    <div class="card-title">포시즌시스템공조</div>
+                    <div class="meta">Posted by : 포시즌시스템공조<br />Date : 2025-04-08 16:45:13</div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="thumb">썸네일 3</div>
+                <div class="card-body">
+                    <div class="card-title">포시즌시스템공조</div>
+                    <div class="meta">Posted by : 포시즌시스템공조<br />Date : 2025-04-08 16:45:03</div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="thumb">썸네일 4</div>
+                <div class="card-body">
+                    <div class="card-title">포시즌시스템공조</div>
+                    <div class="meta">Posted by : 포시즌시스템공조<br />Date : 2025-04-08 16:44:55</div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="thumb">썸네일 5</div>
+                <div class="card-body">
+                    <div class="card-title">포시즌시스템공조</div>
+                    <div class="meta">Posted by : 포시즌시스템공조<br />Date : 2025-04-08 16:44:46</div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="thumb">썸네일 6</div>
+                <div class="card-body">
+                    <div class="card-title">포시즌시스템공조</div>
+                    <div class="meta">Posted by : 포시즌시스템공조<br />Date : 2025-04-08 16:44:39</div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="thumb">썸네일 7</div>
+                <div class="card-body">
+                    <div class="card-title">포시즌시스템공조</div>
+                    <div class="meta">Posted by : 포시즌시스템공조<br />Date : 2025-04-08 16:44:30</div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="thumb">썸네일 8</div>
+                <div class="card-body">
+                    <div class="card-title">포시즌시스템공조</div>
+                    <div class="meta">Posted by : 포시즌시스템공조<br />Date : 2025-04-08 16:44:22</div>
+                </div>
+            </article>
+
+        </div>
+    </main>
+    </div>
+    <div class="footer-1">
+        <footer>
+            <div class="footer-top">
+                회사정보 | 개인정보처리방침 | 이메일무단수집거부 | 찾아오시는길
+            </div>
+            <hr>
+            <div class="footer-bottom">
+                <li>
+                    <a href="#" style="color: white;">
+                        상호명: 경기냉난시스템 | 대표자: 이도운 | 주소: 경기도 화성시 효행로1265번길 84 <br>
+                    </a>
+                </li>|
+                <li>
+                    <a href="#" class="fax"><img src="image/free-icon-phone-94915.png" alt="">010-3035-2244</a>
+                </li>
+            </div>
+        </footer>
+    </div>
+
+    <div class="right_btn">
+        <ul class="lst_group">
+            <li>
+                <a href="tel:010-30352244">
+                    <img src="image/right_call02.png">
+                </a>
+            </li>
+            <li>
+                <a href="sms:010-30352244">
+                    <img src="image/right_sms.png">
+                </a>
+            </li>
+            <li>
+                <a href="http://qr.kakao.com/talk/A2fSn8falFC5gaf3sqtvv60ypqU-" target="_blank">
+                    <img src="image/right_kakao.png">
+                </a>
+            </li>
+        </ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-1.12.3.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const tabs = document.querySelectorAll('.os li');
+            const sections = document.querySelectorAll('[class^="section"]');
+
+            tabs.forEach((tab, index) => {
+                tab.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    // 모든 섹션 숨기기
+                    sections.forEach(section => {
+                        section.style.display = 'none';
+                    });
+
+                    // 클릭한 탭의 index에 맞는 섹션만 보여주기
+                    const targetSection = document.querySelector(`.section${index + 1}`);
+                    if (targetSection) {
+                        targetSection.style.display = 'block';
+                    }
+
+                    // 탭에 active 클래스 추가
+                    tabs.forEach(t => t.classList.remove('active'));
+                    tab.classList.add('active');
+                });
+            });
+
+            // 초기 상태: 첫 번째 섹션만 보이고, 첫 탭에 active 클래스
+            sections.forEach((section, idx) => {
+                section.style.display = (idx === 0) ? 'block' : 'none';
+            });
+            if (tabs[0]) tabs[0].classList.add('active');
+        });
+
+
+    </script>
+</body>
+
+</html>
