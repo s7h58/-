@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "price": 0,
+    "description": "주거용 ECO",
+    "image": "/images/Solution1.jpeg",
+    "details": "느금마",
+    "detailImages": [
+      "/images/chiller_1.jpg"
+    ],
+    "guideImage": "/images/product10.jpeg"
+  },
+  {
+    "id": 2,
+    "price": 0,
+    "description": "주거용",
+    "image": "/images/Solution2.jpeg",
+    "detailImages": [
+      "/images/chiller_2.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "price": 0,
+    "description": "상업용",
+    "image": "/images/Solution3.jpeg",
+    "detailImages": [
+      "/images/chiller_3.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "price": 0,
+    "description": "주거용 V-TOP",
+    "image": "/images/Solution4.jpeg",
+    "detailImages": [
+      "/images/chiller_4.jpg"
+    ]
+  }
+]

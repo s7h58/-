@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "price": 0,
+    "description": "DVM 칠러",
+    "image": "/images/center1.jpeg",
+    "details": "느금마",
+    "detailImages": [
+      "/images/chiller_1.jpg"
+    ],
+    "guideImage": "/images/product10.jpg"
+  }
+]

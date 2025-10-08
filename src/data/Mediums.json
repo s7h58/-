@@ -1,0 +1,193 @@
+[
+  {
+    "id": 1,
+    "price": 0,
+    "description": "중대형 에어컨 BESPOKE AP083RNPPBH6",
+    "image": "/images/Medium1.jpeg",
+    "details": "느금마",
+    "detailImages": [
+      "/images/chiller_1.jpg"
+    ],
+    "guideImage": "/images/product10.jpg"
+  },
+  {
+    "id": 2,
+    "price": 0,
+    "description": "중대형 에어컨 BESPOKE AP110RNPPBH6",
+    "image": "/images/Medium2.jpeg",
+    "detailImages": [
+      "/images/chiller_2.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "price": 0,
+    "description": "중대형 에어컨 BESPOKE AP110RNPPHH7",
+    "image": "/images/Medium3.jpeg",
+    "detailImages": [
+      "/images/chiller_3.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "price": 0,
+    "description": "중대형 에어컨 BESPOKE AP145TNPPHH8",
+    "image": "/images/Medium4.jpeg",
+    "detailImages": [
+      "/images/chiller_4.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "price": 0,
+    "description": "삼성 무풍 시스템에어컨 벽걸이 AM052TNVDBH1",
+    "image": "/images/Medium5.jpeg",
+    "detailImages": [
+      "/images/chiller_5.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "price": 0,
+    "description": "삼성 무풍 시스템에어컨 벽걸이 AM023TNVDBH1",
+    "image": "/images/Medium6.jpeg",
+    "detailImages": [
+      "/images/chiller_6.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "price": 0,
+    "description": "싱글_무풍 1Way 냉방전용",
+    "image": "/images/Medium7.jpeg",
+    "detailImages": [
+      "/images/chiller_7.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "price": 0,
+    "description": "싱글_무풍 1Way 냉난방",
+    "image": "/images/Medium8.jpeg",
+    "detailImages": [
+      "/images/chiller_8.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "price": 0,
+    "description": "싱글_무풍 4Way 1등급",
+    "image": "/images/Medium9.jpeg",
+    "detailImages": [
+      "/images/chiller_9.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "price": 0,
+    "description": "싱글_무풍 4Way 냉방전용",
+    "image": "/images/Medium10.jpeg",
+    "detailImages": [
+      "/images/chiller_10.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "price": 0,
+    "description": "중대형 에어컨 냉난방 스탠다드 AP145RNPDHH1",
+    "image": "/images/Medium11.jpeg",
+    "detailImages": [
+      "/images/chiller_11.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "price": 0,
+    "description": "중대형 에어컨 냉난방 디럭스 AP230RSPDHH1",
+    "image": "/images/Medium12.jpeg",
+    "detailImages": [
+      "/images/chiller_12.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "price": 0,
+    "description": "천장형 실내기 실링",
+    "image": "/images/Medium13.jpeg",
+    "detailImages": [
+      "/images/chiller_13.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "price": 0,
+    "description": "중소건물용 실외기 DVM S Eco 냉방전용",
+    "image": "/images/Medium14.jpeg",
+    "detailImages": [
+      "/images/chiller_14.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "price": 0,
+    "description": "중소건물용 실외기 DVM S Eco",
+    "image": "/images/Medium15.jpeg",
+    "detailImages": [
+      "/images/chiller_15.jpg"
+    ]
+  },
+  {
+    "id": 16,
+    "price": 0,
+    "description": "중대형 에어컨 냉난방 스탠다드 APN-SG583H",
+    "image": "/images/Medium16.jpeg",
+    "detailImages": [
+      "/images/chiller_16.jpg"
+    ]
+  },
+  {
+    "id": 17,
+    "price": 0,
+    "description": "싱글_360",
+    "image": "/images/Medium17.jpeg",
+    "detailImages": [
+      "/images/chiller_17.jpg"
+    ]
+  },
+  {
+    "id": 18,
+    "price": 0,
+    "description": "중대형 에어컨 냉난방 디럭스 AP145RNPPHH1",
+    "image": "/images/Medium18.jpeg",
+    "detailImages": [
+      "/images/chiller_18.jpg"
+    ]
+  },
+  {
+    "id": 19,
+    "price": 0,
+    "description": "천장형 실내기_1 Way",
+    "image": "/images/Medium19.jpeg",
+    "detailImages": [
+      "/images/chiller_19.jpg"
+    ]
+  },
+  {
+    "id": 20,
+    "price": 0,
+    "description": "싱글_무풍 4Way 프리미엄",
+    "image": "/images/Medium20.jpeg",
+    "detailImages": [
+      "/images/chiller_19.jpg"
+    ]
+  },
+  {
+    "id": 21,
+    "price": 0,
+    "description": "싱글_무풍 4Way 디럭스",
+    "image": "/images/Medium21.jpeg",
+    "detailImages": [
+      "/images/chiller_20.jpg"
+    ]
+  }
+]

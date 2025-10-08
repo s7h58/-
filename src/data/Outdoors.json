@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "price": 0,
+    "description": "주거용 실내기_무풍 시스템에어컨 1 Way (※무풍 판넬 적용 시)",
+    "image": "/images/Dwelling1.jpeg",
+    "details": "느금마",
+    "detailImages": [
+      "/images/chiller_1.jpg"
+    ],
+    "guideImage": "/images/product10.jpg"
+  },
+  {
+    "id": 2,
+    "price": 0,
+    "description": "주거용 실내기_무풍 시스템에어컨 1 Way 청정 (※무풍 판넬 적용 시)",
+    "image": "/images/Dwelling2.jpeg",
+    "detailImages": [
+      "/images/chiller_2.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "price": 0,
+    "description": "삼성 무풍 시스템에어컨 벽걸이 AM023TNVDBH1",
+    "image": "/images/Dwelling3.jpeg",
+    "detailImages": [
+      "/images/chiller_3.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "price": 0,
+    "description": "삼성 무풍 시스템에어컨 벽걸이 AM052TNVDBH1",
+    "image": "/images/Dwelling4.jpeg",
+    "detailImages": [
+      "/images/chiller_4.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "price": 0,
+    "description": "아파트주택용 DVM Home (무풍) 단배관",
+    "image": "/images/Dwelling5.jpeg",
+    "detailImages": [
+      "/images/chiller_5.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "price": 0,
+    "description": "아파트주택용 DVM Home (무풍) 단배관",
+    "image": "/images/Dwelling6.jpeg",
+    "detailImages": [
+      "/images/chiller_6.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "price": 0,
+    "description": "주거용 실내기 1 Way",
+    "image": "/images/Dwelling7.jpeg",
+    "detailImages": [
+      "/images/chiller_7.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "price": 0,
+    "description": "주거용 실내기 1 Way",
+    "image": "/images/Dwelling8.jpeg",
+    "detailImages": [
+      "/images/chiller_8.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "price": 0,
+    "description": "아파트주택용 DVM Home (일반) 단배관",
+    "image": "/images/Dwelling9.jpeg",
+    "detailImages": [
+      "/images/chiller_9.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "price": 0,
+    "description": "리뉴얼전용 DVM S Eco Renewal",
+    "image": "/images/Dwelling10.jpeg",
+    "detailImages": [
+      "/images/chiller_10.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "price": 0,
+    "description": "주거용 실내기 1 Way",
+    "image": "/images/Dwelling11.jpeg",
+    "detailImages": [
+      "/images/chiller_11.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "price": 0,
+    "description": "주거용 실내기_1 Way 인테리어형",
+    "image": "/images/Dwelling12.jpeg",
+    "detailImages": [
+      "/images/chiller_12.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "price": 0,
+    "description": "주상복합용 DVM S SLIM",
+    "image": "/images/Dwelling13.jpeg",
+    "detailImages": [
+      "/images/chiller_13.jpg"
+    ]
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "id": 1,
+    "price": 0,
+    "description": "대형건물용 실외기 GHP",
+    "image": "/images/big1.jpeg",
+    "details": "느금마",
+    "detailImages": [
+      "/images/chiller_1.jpg"
+    ],
+    "guideImage": "/images/product10.jpg"
+  },
+  {
+    "id": 2,
+    "price": 0,
+    "description": "대형건물용 실외기 DVM S 고효율 한랭지형",
+    "image": "/images/big2.jpeg",
+    "detailImages": [
+      "/images/chiller_2.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "price": 0,
+    "description": "대형건물용 실외기 DVM S 프리미엄형",
+    "image": "/images/big3.jpeg",
+    "detailImages": [
+      "/images/chiller_3.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "price": 0,
+    "description": "대형건물용 실외기 DVM S 한랭지형",
+    "image": "/images/big4.jpeg",
+    "detailImages": [
+      "/images/chiller_4.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "price": 0,
+    "description": "대형건물용 실외기 DVM S 공장전원형",
+    "image": "/images/big5.jpeg",
+    "detailImages": [
+      "/images/chiller_5.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "price": 0,
+    "description": "대형건물용 실외기 DVM S 냉방 전용",
+    "image": "/images/big6.jpeg",
+    "detailImages": [
+      "/images/chiller_6.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "price": 0,
+    "description": "대형건물용 실외기 DVM S 표준형",
+    "image": "/images/big7.jpeg",
+    "detailImages": [
+      "/images/chiller_7.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "price": 0,
+    "description": "대형건물용 실외기 DVM S 동시냉난방형",
+    "image": "/images/big8.jpeg",
+    "detailImages": [
+      "/images/chiller_8.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "price": 0,
+    "description": "지열수열원 실외기 DVM S GEOWATER",
+    "image": "/images/big9.jpeg",
+    "detailImages": [
+      "/images/chiller_9.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "price": 0,
+    "description": "대형건물용 실외기 DVM S 고온형",
+    "image": "/images/big10.jpeg",
+    "detailImages": [
+      "/images/chiller_10.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "price": 0,
+    "description": "천장형 실내기_무풍 시스템에어컨 1 Way",
+    "image": "/images/big11.jpeg",
+    "detailImages": [
+      "/images/chiller_11.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "price": 0,
+    "description": "천장형 실내기_무풍 4Way-미니",
+    "image": "/images/big12.jpeg",
+    "detailImages": [
+      "/images/chiller_12.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "price": 0,
+    "description": "천장형 실내기_무풍 시스템에어컨 1 Way 청정",
+    "image": "/images/big13.jpeg",
+    "detailImages": [
+      "/images/chiller_13.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "price": 0,
+    "description": "천장형 실내기_무풍 4Way",
+    "image": "/images/big14.jpeg",
+    "detailImages": [
+      "/images/chiller_14.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "price": 0,
+    "description": "천장형 실내기_덕트형 고정압(HSP)",
+    "image": "/images/big15.jpeg",
+    "detailImages": [
+      "/images/chiller_15.jpg"
+    ]
+  },
+  {
+    "id": 16,
+    "price": 0,
+    "description": "천장형 실내기_덕트형 중정압(MSP)",
+    "image": "/images/big16.jpeg",
+    "detailImages": [
+      "/images/chiller_16.jpg"
+    ]
+  },
+  {
+    "id": 17,
+    "price": 0,
+    "description": "천장형 실내기_4 Way",
+    "image": "/images/big17.jpeg",
+    "detailImages": [
+      "/images/chiller_17.jpg"
+    ]
+  },
+  {
+    "id": 18,
+    "price": 0,
+    "description": "천장형 실내기_덕트형 저정압(LSP)",
+    "image": "/images/big18.jpeg",
+    "detailImages": [
+      "/images/chiller_18.jpg"
+    ]
+  },
+  {
+    "id": 19,
+    "price": 0,
+    "description": "천장형 실내기_1 Way",
+    "image": "/images/big19.jpeg",
+    "detailImages": [
+      "/images/chiller_19.jpg"
+    ]
+  },
+  {
+    "id": 20,
+    "price": 0,
+    "description": "천장형 실내기_2 Way",
+    "image": "/images/big20.jpeg",
+    "detailImages": [
+      "/images/chiller_20.jpg"
+    ]
+  }
+]

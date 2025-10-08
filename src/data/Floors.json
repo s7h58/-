@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "price": 0,
+    "description": "히트펌프 보일러 (심야전기용) 실내기",
+    "image": "/images/Floor1.jpeg",
+    "details": "느금마",
+    "detailImages": [
+      "/images/chiller_1.jpg"
+    ],
+    "guideImage": "/images/product10.jpg"
+  },
+  {
+    "id": 2,
+    "price": 0,
+    "description": "히트펌프 보일러 (심야전기용) 실외기",
+    "image": "/images/Floor2.jpeg",
+    "detailImages": [
+      "/images/chiller_2.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "price": 0,
+    "description": "히트펌프 보일러 (일반전기용)",
+    "image": "/images/Floor3.jpeg",
+    "detailImages": [
+      "/images/chiller_3.jpg"
+    ]
+  }
+]
